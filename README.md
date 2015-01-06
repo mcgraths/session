@@ -3,6 +3,30 @@ session
 
 Python script to initializes a photography session directory with tree structure and blank Lightroom catalog.
 
+It uses the shoot folder name to create the following structure for weddings:
+
+```
+Wedding Folder Name
+├── Book/
+├── Prints/
+├── Wedding Folder Name Catalog/
+│   ├── Wedding Folder Name Previews.lrdata
+│   └── Wedding Folder Name.lrcat
+├── Throwaways/
+└── USB/
+```
+
+and the following for any other types of shoots:
+
+```
+Shoot Folder Name
+├── Shoot Folder Name Catalog/
+│   ├── Shoot Folder Name Previews.lrdata
+│   └── Shoot Folder Name.lrcat
+├── Throwaways/
+└── USB/
+```
+
 Installation
 ------------
 
